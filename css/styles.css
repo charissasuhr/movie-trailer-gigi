@@ -1,5 +1,5 @@
 main { 
-  margin: 0 auto;
+  margin: 15px auto;
     
   display: grid;
   grid-template-columns: 1fr;
@@ -10,10 +10,15 @@ main {
   flex-wrap: wrap;
 }
 
+img{
+width: 100px;
+height: 115px;
+}
+
 
 /* Example: Change color of play button */
 .plyr__control--overlaid {
-  background: coral;
+  background: pink;
 }
 /* button on focus */
 .plyr--video .plyr__control:hover {
@@ -22,7 +27,7 @@ main {
 
 /* Example: Change color of progress bar */
 .plyr--full-ui input[type="range"] {
-  color: coral;
+  color: pink;
 }
 
 /* Example: Change player controls */
@@ -44,7 +49,7 @@ main {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: rgb(246, 246, 201);
        content: "Mobile Size";
   }
   
@@ -57,7 +62,7 @@ main {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: rgb(138, 220, 235);
        content: "Tablet Size";
   }
 
@@ -70,7 +75,7 @@ main {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: grey;
        content: "Desktop Size";
   }
 
@@ -94,7 +99,7 @@ main {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: pink;
        content: "Wide Desktop Size";
   }
   
